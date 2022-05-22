@@ -37,36 +37,61 @@
 Половцев: Половцев А. А. Русский библиографический словарь в 25 т. СПб. 1896-1918.
 Белинский: Белинский В. Г. Полное собрание сочинений: В 13 т. М. 1953-1959.
 
-
-Таблица метаданных
-----------------
+**Таблица метаданных**
 Расшифровка названий колонок в таблице ballads40_metadata.
+
 id - Идентификатор текста. Тексты в корпусе (файлы .txt) соотносятся с метаданными на основании идентификатора.
+
 Signature - Подпись автора при публикации текста.
+
 Author - Автор текста (расшифровка на основании подписи и проч. материалов).
+
 Title - Заголовок текста, указанный при публикации.
+
 First_line - Первая строка.
+
 Genre_subtitle - Подзаголовок стихотворения, указанный при публикации или название раздела в сборнике.
+
 Source_name - Название источника.
+
 Place - Место публикации.
+
 Year - Год публикации источника.
+
 Volume - Часть / Том / Книга.
+
 Number - Номер.
+
 Section – Отдел.
+
 Page - Страницы.
+
 Type - Тип источника (per = периодика, col = авторские сборники).
+
 Translation – Автор оригинала, если текст является переводом (зачастую было указано при публикации, для некоторых текстов составитель корпуса определил оригинал самостоятельно).
+
 Canon_or_not – “canon” – творчество автора представлено персональным собранием стихотворений в серии «Библиотека поэта» или другом академическом издании, “BP” – тексты автора опубликованы в коллективных сборниках серии «Библиотека поэта» (автор известен академическому сообществу), “periphery” – маргинальный автор.
+
 Meter - Метр.
+
 Razmer - Стихотворный размер.
+
 Regularity – Регулярность воспроизведения стихотворного размера.
+
 Claus - Клаузула.
+
 Rhyme – Рифмовка (rhymed – рифмованное (в т. ч. вольная рифмовка), unrhymed – нерифмованное, unreg – нерегулярные отклонения от рифмы).
+
 Graphics_stanzas – Наличие графического разделения на строфы.
+
 Stanza_model – модель строфы: стихотворный размер, схема рифмовки и расположение клаузул разного типа (заглавная буква – ж, строчная – м, О – холостая рифма)
+
 Stanza_type – Тип строфы.
+
 Other – Дополнительные характеристики (например, цезура, рефрен) 
+
 Nline – Количество строк
+
 Narration – Тип повествования в текстах (“heterogenic” – третьеличное повествование, “homogenic” – перволичное повествование, “mixed” – смешанное повествование: большая часть истории рассказывается персонажем, при этом введение/концовка/вставки принадлежат безличному рассказчику)
 
 Corpus of Russian literary ballads 1840-1850
@@ -79,17 +104,18 @@ The poems were gathered from poetry collections published between 1840 and 1850,
 The author of the corpus has looked through the following periodicals of the given period: “Moskvityanin”, “Otechestvennye Zapiski”, “Sovremennik”, “Biblioteka dlya Chteniya”. A few texts have been collected from “Kievlyanin”, “Russki Vestnik” and almanacs.
 
 To find texts in the poetic collections a registry was compiled from the following sources and using following methods:
-·         M. D. Ol’khin. “Sistematichesky reestr russkim knigam s 1831 po 1846 god” (XXI: “Proizvedeniya slovesnosti pieticheskiya”) [Olkhin]
-·         Opisanie biblioteki russkoy poèzii N. I. Rozanova [Goldberg];
-·         bibliography of poetic collections 1834–1850 compiled by A. Yu. Balakin and published in his Live Journal page [Balakin];
-·         search in electronic catalogue of Russian National Library by word “poetry” or “poems” in any field of book’s description
+· M. D. Ol’khin. “Sistematichesky reestr russkim knigam s 1831 po 1846 god” (XXI: “Proizvedeniya slovesnosti pieticheskiya”) [Olkhin]
+· Opisanie biblioteki russkoy poèzii N. I. Rozanova [Goldberg];
+· Bibliography of poetic collections 1834–1850 compiled by A. Yu. Balakin and published in his Live Journal page [Balakin];
+· Search in electronic catalogue of Russian National Library by word “poetry” or “poems” in any field of book’s description
 
 For authorship attribution we used I. F. Masanov’s “Slovar’ psevdonimov russkikh pisateley, uchenykh i obshchestvennykh deyateley”. Authors of two anonymous collections were attributed by Russian National Library (the correctness of the attribution was controlled by the author of the corpus). The collection “Stikhotvoreniya N. S.” (SPb., 1843) might belong to N. Stupin, for reference see: [Belinsky 1959: XIII, 724].
 
 For further computational study texts were presented in the modern Russian orthography, line indents and other printing features were mostly excluded from the texts. However, ballads in the corpus retain punctuation, line division and stanzas as in their original sources. Words printed in italics/marked otherwise were not tagged.
 Each poem is presented as a separate plain text file (UTF-8 encoding) and named with a unique id. All the texts are gathered in the zip archive ballad40_corpus, the name of the file includes id, year of publication and authors surname/acronym/pseudonym (in the format id_year_author.txt). The metadata, such as authors' names, publication date(s) and source(s), metrical features, type of narration and presence of direct speech are stored in the ballads40_metadata.tsv table. Missing values are marked in the table with “NA”. The texts can be connected with the metadata table by id-s.
 
-Bibliography
+**Bibliography**
+
 Iyezuitova: Иезуитова Р.
 В. Баллада в эпоху романтизма //
 Русский романтизм. Л. 1978. С. 138-163.
@@ -104,39 +130,56 @@ Goldberg: Гольдберг В. В., Кострова М. И., Марцишев
 Olkhin: Ольхин М. Д. Систематический
 реестр русским книгам с 1831 по 1846 год. Эл. копия: Google books. (09.06.2020) 
 Belinsky: Белинский В. Г. Полное собрание сочинений: В 13 т. М. 1953-1959.
+
 Metadata table
 ----------------
 Column names explanations:
 id - Identifier for each text. The texts (.txt files) are to be connected with the
 metadata table through id-s.
+
 Signature - Author's signature as it was written in the source of publication.
+
 Author - Author of the text (based on the signature and bibliographical sources).
+
 Title - Title of the text in the source.
+
 First_line - First line of the text.
+
 Genre_subtitle - Subtitle given in the source of publication or name of the section in poetry
 collection.
+
 Source_name - Name of the source (abbreviations for periodicals).
+
 Place - Place of publication.
+
 Year - Year of publication.
+
 Volume, Number, Section, Page - Bibliographical data accordingly.
+
 Type - Type of the source (per = periodicals, col = poetry collection).
-Translation – Author of the original text if the ballad was translated in Russian from another
-language (sometimes marked at publication, sometimes identified by the creator
-of the corpus)
-Canon_or_not – “canon” – author has a personal collection in any academic series such as “Biblioteka
-Poeta”, BP – author’s works were published in collective publication in the
-book series “Biblioteka Poeta” (author is known within the academic community),
-periphery – author’s works are not widely known.
+
+Translation – Author of the original text if the ballad was translated in Russian from another language (sometimes marked at publication, sometimes identified by the creator of the corpus)
+
+Canon_or_not – “canon” – author has a personal collection in any academic series such as “Biblioteka Poeta”, BP – author’s works were published in collective publication in the book series “Biblioteka Poeta” (author is known within the academic community), periphery – author’s works are not widely known.
 Meter -Poetic meter (abbrevation).
+
 Razmer - Poetic meter with number of feet.
+
 Regularity – Whether usage of poetic meter is regular or not.
+
 Claus – Type of clausula.
+
 Rhyme – Whether poem is rhymed, unrhymed or has unregular rhyme.
+
 Graphic_stanzas – Whether stanzas are graphically distinct (separated) in the source. 
+
 Stanza_model – Poetic meter with number of feet, type of clausula and rhyme.
+
 Stanza_type – Type of stanzas
+
 Other – Additional poetic features like refrain.
+
 Nline – Number of lines.
-Narration – type of narration (heterogenic – third person narration, homogenic – first
-person narration, mixed – when most of the story is told by the character and
+
+Narration – type of narration (heterogenic – third person narration, homogenic – first person narration, mixed – when most of the story is told by the character and
 intro/ending/inserts are told by omnipotent narrator).
